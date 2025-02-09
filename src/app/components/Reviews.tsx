@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Star, StarHalf, Star as StarOutline } from "lucide-react"; // Import modern icons
+import { Star, Star as StarOutline } from "lucide-react"; // Import modern icons
 
 interface Review {
   productId: string;

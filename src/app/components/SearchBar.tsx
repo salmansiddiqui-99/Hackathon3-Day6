@@ -25,7 +25,7 @@ export default function SearchBar() {
 
   // ✅ Fetch products from Sanity
   useEffect(() => {
-    const fetchProducts = async () => {
+    const fetchProducts = async () => { 
       try {
         const data: Product[] = await sanityClient.fetch(
           `*[_type == "product"]{ _id, name, tags }`
